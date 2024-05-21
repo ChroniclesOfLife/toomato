@@ -1,0 +1,105 @@
+:root {
+    --main-color: #4F4F4F;
+}
+/* Navigation */
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #D66850;
+}
+.dark-red-bg{
+    background-color: #be5e46 !important;
+}
+.light-red-bg{
+    background-color:#D66850 !important;
+}
+.light-yellow-bg{
+    background-color: #e9dbc0 !important;
+}
+.cart-item {
+    margin-bottom: 1rem;
+}
+
+/* Banner */
+.banner-image {
+    background: url('img/banner.jpg') no-repeat center center / cover;
+    min-height: 600px;
+}
+
+/* Feature Products Card */
+.card-title a {
+    color: #4f4f4f; 
+    text-decoration: none; 
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+    .banner-image {
+        min-height: 300px; /* Adjust banner image for smaller devices */
+    }
+}
+.bg-light {
+    margin-top:5px;
+}
+.mb-2{
+    display: flex;
+    justify-content: left; /* for horizontal alignment */
+}
+.nav-item .nav-link {
+    color: #4f4f4f !important;
+    width: 100%; /* This will make the list take up the full width of its container */
+    font-size: 20px; /* Adjust this value to increase or decrease the font size */
+    margin-right: 40px !important;
+}
+.nav-link.active {
+    text-decoration: underline;
+    text-decoration-color: #D66850; /* Change '#ff523b' to the color you want */
+    text-decoration-thickness: 2px; /* Adjust this value to increase or decrease the thickness of the underline */
+}
+
+.nav-item-shopping .nav-link-shopping {
+    color: #4f4f4f;
+    width: 100%; /* This will make the list take up the full width of its container */
+    font-size: 20px; /* Adjust this value to increase or decrease the font size */
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+
+}
+.fas.fa-shopping-cart {
+    vertical-align: bottom; /* Align the icon vertically */
+}
+.fas.fa-shopping-cart:hover,
+.fas.fa-shopping-cart:active {
+    color: #D66850; /* Change '#ff523b' to the color you want */
+}
+
+.cart-quantity {
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 11px; /* Match this to the font-size */
+    text-align: center;
+    border-radius: 50%;
+    background-color: #D66850;
+    color: white;
+    font-size: 15px;
+}
+.text-hover a:hover {
+    color: #be5e46 !important;
+    
+}
+h3:hover {
+    color: #be5e46;
+}
+.facebook-color {
+    color: #1357e9;
+}
+
+.youtube-color {
+    color: #ff0800;
+}
+
+.tiktok-color {
+    color: #000000;
+}

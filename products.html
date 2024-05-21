@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+    <title>CoolGadgets | Ecommerce Website</title>
+</head>
+
+<body>
+    <header class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/">
+                    <img src="img/logomoi.png" alt="TOOMATO Logo" width="190">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="/">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="products.html">Sản phẩm</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Bài viết</a></li>
+                        <li class="nav-item"><a class="nav-link" href="search.html">Tra cứu thành phần</a></li>
+                        <li class="nav-item-shopping">
+                            <a class="nav-link-shopping" href="cart.html">
+                                <i class="fas fa-shopping-cart a"></i>
+                                <span class="cart-quantity">2</span> <!-- Add this line -->
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--- Products Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Sản phẩm</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Product 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-1.jpg" class="card-img-top" alt="Virtual Reality Glasses">
+                    <div class="card-body">
+                        <h5 class="card-title">sp1</h5>
+                        <p class="card-text">100.000 VND</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Virtual Reality Glasses">
+                            <input type="hidden" name="price" value="299.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn light-red-bg" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-2.jpg" class="card-img-top" alt="Facial Recognition Home Hub">
+                    <div class="card-body">
+                        <h5 class="card-title">sp2</h5>
+                        <p class="card-text">100.000 VND</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                            <input type="hidden" name="price" value="149.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn light-red-bg" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-3.jpg" class="card-img-top" alt="3D Printing Pen">
+                    <div class="card-body">
+                        <h5 class="card-title">sp3</h5>
+                        <p class="card-text">100.000 VND</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="3D Printing Pen">
+                            <input type="hidden" name="price" value="$45.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn light-red-bg" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-4.jpg" class="card-img-top" alt="Delivery Drone">
+                    <div class="card-body">
+                        <h5 class="card-title">sp4</h5>
+                        <p class="card-text">100.000 VND</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                            <input type="hidden" name="price" value="$199.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn light-red-bg" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/new-product.jpg" class="card-img-top" alt="Smart Ring">
+                    <div class="card-body">
+                        <h5 class="card-title">sp5</h5>
+                        <p class="card-text">100.000 VND</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Smart Ring">
+                            <input type="hidden" name="price" value="199.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn light-red-bg" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!--- Footer -->
+   <footer class="light-yellow-bg text-dark text-hover py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-hover">
+                <img src="img/logomoi.png" alt="TOOMATO Logo" class="mb-2" width="175">
+                <p class="text-hover">Noi dung</p>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x facebook-color"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube fa-2x youtube-color"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok fa-2x tiktok-color"></i></a>
+            </div>
+            <div class="col-md-3 offset-md-6">
+                <h3 class="text-hover">Sơ đồ website</h3>
+                <ul class="list-unstyle text-hover">
+                    <li><a href="/" class="text-decoration-none text-dark text-hover">Trang chủ</a></li>
+                    <li><a href="products.html" class="text-decoration-none text-dark text-hover ">Sản phẩm</a></li>
+                    <li><a href="#contact" class="text-decoration-none text-dark text-hover text-hover">Bài viết</a></li>
+                    <li><a href="search.html" class="text-decoration-none text-dark text-hover text-hover">Tra cứu thành phần</a></li>
+                    <li><a href="cart.html" class="text-decoration-none text-dark text-hover text-hover">Giỏ hàng</a></li>
+                    <li><a href="#contact" class="text-decoration-none text-dark text-hover text-hover">Liên hệ</a></li>
+                </ul>
+            </div>
+        <hr class="my-4">
+        <div class="text-center">&copy; Copyright 2024 - TOOMATO</div>
+    </div>
+</footer>
+</body>
+</html>
