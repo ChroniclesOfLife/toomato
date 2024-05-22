@@ -23,8 +23,11 @@
 }
 
 .banner-image {
-    background: url('img/banner.png') no-repeat center center / cover !important;
-    min-height: 600px !important;
+    background-color: lightyellow; /* Replace with your desired color */
+    background-image: url('img/banner.png'); /* Replace with the path to your image */
+    background-size: cover; /* This will make the image cover the entire div */
+    background-position: center; /* This will center the image in the div */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
 }
 
 .card-title a {
@@ -162,4 +165,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+.light-yellow {
+    background-color: #EDDBC0;
 }
