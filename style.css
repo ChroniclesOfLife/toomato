@@ -1,105 +1,165 @@
 :root {
-    --main-color: #4F4F4F;
+    --main-color: #4F4F4F !important;
 }
-/* Navigation */
+
 .navbar-collapse .navbar-nav .nav-item a:hover {
-    color: #D66850;
+    color: #D66850 !important;
 }
+
 .dark-red-bg{
     background-color: #be5e46 !important;
 }
+
 .light-red-bg{
     background-color:#D66850 !important;
 }
+
 .light-yellow-bg{
     background-color: #e9dbc0 !important;
 }
+
 .cart-item {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
 }
 
-/* Banner */
 .banner-image {
-    background: url('img/banner.jpg') no-repeat center center / cover;
-    min-height: 600px;
+    background: url('img/banner.png') no-repeat center center / cover !important;
+    min-height: 600px !important;
 }
 
-/* Feature Products Card */
 .card-title a {
-    color: #4f4f4f; 
-    text-decoration: none; 
+    color: #4f4f4f !important; 
+    text-decoration: none !important; 
 }
 
-/* Media queries for responsive adjustments */
 @media (max-width: 768px) {
     .banner-image {
-        min-height: 300px; /* Adjust banner image for smaller devices */
+        min-height: 300px !important;
     }
 }
+
 .bg-light {
-    margin-top:5px;
+    margin-top:5px !important;
 }
+
 .mb-2{
-    display: flex;
-    justify-content: left; /* for horizontal alignment */
+    display: flex !important;
+    justify-content: left !important;
 }
+
 .nav-item .nav-link {
     color: #4f4f4f !important;
-    width: 100%; /* This will make the list take up the full width of its container */
-    font-size: 20px; /* Adjust this value to increase or decrease the font size */
+    width: 100% !important;
+    font-size: 20px !important;
     margin-right: 40px !important;
 }
+
 .nav-link.active {
-    text-decoration: underline;
-    text-decoration-color: #D66850; /* Change '#ff523b' to the color you want */
-    text-decoration-thickness: 2px; /* Adjust this value to increase or decrease the thickness of the underline */
+    text-decoration: underline !important;
+    text-decoration-color: #D66850 !important;
+    text-decoration-thickness: 2px !important;
 }
 
 .nav-item-shopping .nav-link-shopping {
-    color: #4f4f4f;
-    width: 100%; /* This will make the list take up the full width of its container */
-    font-size: 20px; /* Adjust this value to increase or decrease the font size */
-    padding:0 0 0 0;
-    margin:0 0 0 0;
+    color: #4f4f4f !important;
+    width: 100% !important;
+    font-size: 20px !important;
+    padding:0 0 0 0 !important;
+    margin:0 0 0 0 !important;
+}
 
-}
 .fas.fa-shopping-cart {
-    vertical-align: bottom; /* Align the icon vertically */
+    vertical-align: bottom !important;
 }
+
 .fas.fa-shopping-cart:hover,
 .fas.fa-shopping-cart:active {
-    color: #D66850; /* Change '#ff523b' to the color you want */
+    color: #D66850 !important;
 }
 
 .cart-quantity {
-    position: absolute;
-    top: 5px;
-    right: -10px;
-    padding: 5px;
-    width: 20px;
-    height: 20px;
-    line-height: 11px; /* Match this to the font-size */
-    text-align: center;
-    border-radius: 50%;
-    background-color: #D66850;
-    color: white;
-    font-size: 15px;
+    position: absolute !important;
+    top: 5px !important;
+    right: -10px !important;
+    padding: 5px !important;
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 11px !important;
+    text-align: center !important;
+    border-radius: 50% !important;
+    background-color: #D66850 !important;
+    color: white !important;
+    font-size: 15px !important;
 }
+
 .text-hover a:hover {
     color: #be5e46 !important;
-    
 }
+
 h3:hover {
-    color: #be5e46;
+    color: #be5e46 !important;
 }
+
 .facebook-color {
-    color: #1357e9;
+    color: #1357e9 !important;
 }
 
 .youtube-color {
-    color: #ff0800;
+    color: #ff0800 !important;
 }
 
 .tiktok-color {
-    color: #000000;
+    color: #000000 !important;
+}
+/* Style for all columns */
+.col-12, .col-sm-3, .col-sm-9, .col-lg-6 {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Gray border */
+    padding: 15px; /* Padding */
+    margin-bottom: 10px; /* Space between columns */
+}
+
+/* Style for small columns */
+.col-sm-3, .col-sm-9 {
+    background-color: #e9ecef; /* Darker gray background for small columns */
+}
+
+/* Style for large columns */
+.col-lg-6 {
+    background-color: #e0e0e0; /* Even darker gray background for large columns */
+}
+/* Style for buttons */
+button {
+    background-color: #4F4F4F; /* Dark gray background */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 10px; /* Margin to the left */
+}
+
+/* Style for button hover */
+button:hover {
+    background-color: #D66850; /* Change background to light red on hover */
+}
+
+/* Style for columns */
+.col-md-8, .col-12, .col-sm-3, .col-sm-9, .col-lg-6 {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Gray border */
+    padding: 15px; /* Padding */
+    margin-bottom: 10px; /* Space between columns */
+    margin-left: 10px; /* Margin to the left */
+}
+.col {
+    border: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
